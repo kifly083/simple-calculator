@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	
+	int num1;
+	int num2;
+	
+	printf("Enter first number: ");
+	scanf("%d", &num1);
+	printf("Enter second number: ");
+	scanf("%d", &num2);
+	
+	printf("Answer: %d\n", num1+num2);
+	printf("Answer: %d\n", num1-num2);
+	printf("Answer: %d\n", num1*num2);
+	printf("Answer: %d\n", num1/num2);
+	
+    
+	
+	
+	
+	return 0;
+}
